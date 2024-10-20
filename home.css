@@ -12,6 +12,7 @@
     justify-content: space-around;
 }
 
+
 #camp-card {
     padding: 3vh 0;
 }
@@ -38,6 +39,7 @@
 .card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    transform: scale(1.05);
 }
 
 .card img {
@@ -388,6 +390,40 @@ p {
     color: #000000;
     line-height: 1.6;
 }
+
+#recognition{
+    margin-top: 60px;
+    font-size: 35px;
+    padding: 0 0 4vh 0;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+/* Styling for the certificates section */
+.appreciation {
+    display: flex;          
+    justify-content: center; 
+    gap: 200px;              
+    padding: 20px;      
+    margin-bottom: 30px; 
+}
+
+/* Styling for individual certificates */
+.certificate {
+    width: 300px;                 
+    height: auto;                  
+    border: 20px solid #f0f0f0;     
+    border-radius: 10px;          
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.certificate1{
+    width: 550px;
+    border: 20px solid #f0f0f0;     
+    border-radius: 10px;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 .stats {
     display: flex;
