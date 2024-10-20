@@ -13,13 +13,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 20px;
 }
 
-#camp-card{
+#camp-card {
     padding: 3vh 0;
 }
-#camp-card-heading{
+
+#camp-card-heading {
     font-size: 40px;
     display: flex;
     justify-content: center;
@@ -73,21 +73,22 @@ body {
 }
 
 .navbar {
-    position: fixed; /* Make the navbar fixed */
-    top: 0; /* Stick to the top */
+    position: fixed;
+    /* Make the navbar fixed */
+    top: 0;
+    /* Stick to the top */
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(0, 70, 135);
     padding: 2px 20px;
     z-index: 1000;
-    width: 100%;
+    width: 99%;
 }
 
 .logo-image {
     height: 60px;
     width: auto;
-    filter: invert(1) brightness(6);
 }
 
 /* Navbar links styling */
@@ -134,7 +135,7 @@ body {
 }
 
 .slider {
-    margin-top: 68px ;
+    margin-top: 68px;
     overflow: hidden;
     width: 100%;
     height: 650px;
@@ -211,7 +212,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 35%;
-    height: 40%;
+    height: 55%;
     background-color: rgba(0, 0, 0, 0.388);
     border-radius: 8px;
     /* Semi-transparent background */
@@ -243,16 +244,17 @@ body {
 /* Styling for the client logos section */
 #partners {
     padding: 70px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     /* Background color for the section */
     text-align: center;
+    width: 98vw;
 }
 
 #heading {
     margin-bottom: 20px;
     font-size: 35px;
     padding: 0 0 4vh 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logos {
@@ -285,4 +287,127 @@ body {
 .logos a:hover img {
     transform: scale(1.1);
     /* Slight zoom effect on hover */
+}
+
+
+/* GET IN TOUCH */
+#get-in-touch .container {
+    background-image: url('IMAGES/home/2.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 50px;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    max-width: 600px;
+    text-align: right;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: rgb(179, 179, 179);
+}
+
+.cta-button {
+    background-color: #001077;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e6c300;
+}
+
+footer h4{
+    margin: 3vh 0;
+}
+
+footer li{
+    margin: 8px 0;
+}
+
+#footer-logo{
+    size: 10vh;
+}
+
+#slider-button{
+    background-color: #001077;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* ACHIEVEMENT */
+
+.achievement {
+    background-image: url(IMAGES/4877010.jpg);
+    padding: 50px 0;
+    text-align: center;
+}
+
+span {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: black;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.stat {
+    text-align: center;
+    margin: 0 40px;
+}
+
+.stat h2 {
+    font-size: 48px;
+    color: #002366; /* Dark blue color */
+    margin-bottom: 17px;
+}
+
+.stat p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.map {
+    margin-top: 20px;
+}
+
+.map img {
+    width: 200px;
+    height: auto;
 }
