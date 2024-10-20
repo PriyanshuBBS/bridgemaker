@@ -5,6 +5,73 @@
     font-family: "Montserrat", sans-serif;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#camp-card{
+    padding: 3vh 0;
+}
+#camp-card-heading{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 22%;
+    margin: 15px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s ease;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 90%;
+    }
+}
+
 .navbar {
     position: fixed; /* Make the navbar fixed */
     top: 0; /* Stick to the top */
