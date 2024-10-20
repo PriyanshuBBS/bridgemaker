@@ -230,8 +230,6 @@ body {
 }
 
 
-
-
 .overlay p {
     max-width: 600px;
     font-family: "Montserrat", sans-serif;
@@ -244,7 +242,7 @@ body {
 /* Styling for the client logos section */
 #partners {
     padding: 70px;
-    background-color: #ffffff;
+    background-color: #f2f0ef;
     /* Background color for the section */
     text-align: center;
 }
@@ -253,7 +251,7 @@ body {
     margin-bottom: 20px;
     font-size: 35px;
     padding: 0 0 4vh 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"Montserrat", sans-serif;
 }
 
 .logos {
